@@ -31,12 +31,6 @@ dd<template>
 <script>
 
 export default {
-  data() {
-    return {
-      title: 'Home page'
-      }
-     },
-     
 head() {
 return {
   title: About Plant Portraits,
