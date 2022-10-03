@@ -31,11 +31,12 @@ dd<template>
 <script>
 
 export default {
-head: {
-  title: 'About Plant Portraits',
+name: 'About',
+head() {
+  return {
         meta: [
-   
           {
+            title: 'About Plant Portraits',
             hid: 'description',
             name: 'description',
             content: 'About the company'
