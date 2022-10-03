@@ -31,7 +31,7 @@ dd<template>
 <script>
 
 export default {
-head() {
+head: {
 return {
   title: About Plant Portraits,
         meta: [
