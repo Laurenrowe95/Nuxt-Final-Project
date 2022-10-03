@@ -34,6 +34,8 @@ export default {
     layout: 'nondefault'
     }
   },
+  
+export default {
 head() {
 return {
   title: About Plant Portraits,
