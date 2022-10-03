@@ -29,9 +29,19 @@ dd<template>
 
 
 <script>
-
-  
 export default {
+    name: 'about',
+    layout: 'nondefault'
+    }
+    },
+    
+export default {
+  data() {
+    return {
+      title: 'Home page'
+      }
+     },
+     
 head() {
 return {
   title: About Plant Portraits,
@@ -47,9 +57,4 @@ return {
     }
   }
 </script>
-<script>
-export default {
-    name: 'about',
-    layout: 'nondefault'
-    }
-  </script>
+
