@@ -29,8 +29,19 @@ dd<template>
 
 
 <script>
-
 export default {
+  head: {
+    title: 'rowe-project',
+    htmlAttrs: {
+      lang: 'en'
+    },
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: 'plant photography portraits' },
+      { name: 'format-detection', content: 'telephone=no' }
+    ],
+},
 head() {
   return {
         title: 'About Plant Portraits',
