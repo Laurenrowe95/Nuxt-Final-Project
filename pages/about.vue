@@ -29,11 +29,7 @@ dd<template>
 
 
 <script>
-export default {
-    name: 'about',
-    layout: 'nondefault'
-    }
-  },
+
   
 export default {
 head() {
@@ -51,5 +47,9 @@ return {
     }
   }
 </script>
-
-
+<script>
+export default {
+    name: 'about',
+    layout: 'nondefault'
+    }
+  </script>
