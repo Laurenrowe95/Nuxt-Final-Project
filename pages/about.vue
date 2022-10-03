@@ -29,12 +29,7 @@ dd<template>
 
 
 <script>
-export default {
-    name: 'about',
-    layout: 'nondefault'
-    }
-    },
-    
+
 export default {
   data() {
     return {
